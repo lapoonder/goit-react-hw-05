@@ -1,0 +1,16 @@
+.actor_list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.actor_list li {
+  max-width: calc((100% - 5 * 20px) / 6);
+}
+
+.actor_info {
+  padding-top: 10px;
+}

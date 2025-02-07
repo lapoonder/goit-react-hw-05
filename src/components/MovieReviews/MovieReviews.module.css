@@ -1,0 +1,11 @@
+.review_error {
+  padding: 20px 20px;
+  color: azure;
+}
+
+.review_list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

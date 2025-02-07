@@ -1,0 +1,29 @@
+.back_page {
+  padding: 10px 20px;
+}
+.movie_info_container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.movie_info_img {
+  max-height: 300px;
+}
+
+.movie_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+}
+.more_movie_info {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.more_movie_info_list {
+  padding: 10px 20px;
+}

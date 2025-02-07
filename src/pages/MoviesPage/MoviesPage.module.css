@@ -1,0 +1,19 @@
+.searchForm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.searchForm input,
+.searchForm input:focus,
+.searchForm input:active,
+.searchForm input:hover {
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.searchForm button {
+  margin-left: 5px;
+  height: 30px;
+  border: none;
+}

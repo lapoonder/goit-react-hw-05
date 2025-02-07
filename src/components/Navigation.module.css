@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: left;
+  max-width: 80%;
+  margin: auto;
+}
+
+.link {
+  font-size: 24px;
+  color: #fff;
+}
+
+.link.active {
+  color: red;
+}
+
+.link:hover {
+  color: rgb(255, 117, 117);
+}
