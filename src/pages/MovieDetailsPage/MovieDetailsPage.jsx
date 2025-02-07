@@ -6,7 +6,7 @@ import css from './MovieDetailsPage.module.css';
 
 const MovieDetailsPage = () => {
   const location = useLocation();
-  const backLinkHref = location.state ?? '/';
+  const backLinkHref = location.state ?? '/movies';
   const { movieId } = useParams();
   const [movie, setMovie] = useState();
   const [error, setError] = useState('');
